@@ -3,7 +3,7 @@
       padding: 0;
 }
 #navtgation{
-      background-color: green;
+      background-image: linear-gradient(green, red);
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -47,16 +47,23 @@
       opacity: 0;
       transition: 0.5s;
       visibility: hidden;
+      transform: scaleY(0);
+      transform-origin: top;
+      box-shadow: 5px 5px 5px red;
+      
      
-}
+} 
 .dropdown > li{
       list-style: none;
       padding: 10px;
       border-bottom: 2px solid white;
       border-radius: 5px;
+      
 }
 .dropdown > li:hover{
       background-color: #12641263;
+      
+     
 }
 .dropdown > li > a{
       text-decoration: none;
@@ -67,4 +74,10 @@
 .firstdrop:hover > .dropdown{
       opacity: 1;
       visibility: visible;
+     transform: scaleY(1);
+      
+}
+span{
+      color: red;
+      font-size: 35px;
 }
