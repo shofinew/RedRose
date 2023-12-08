@@ -14,19 +14,23 @@
 }
 #navtgation > ul > li{
       list-style: none;
-      margin: 0px 5px;
       padding: 15px 0px;
+     
 }
 #navtgation > ul > li > a {
       text-decoration: none;
       color: white;
       font-size: 22px;
       border-right: 1px solid ;
-      padding-right: 15px;
+      padding: 15px 20px;
+      transition: 0.5s;
 }
 #navtgation > ul > li:first-child > a {
       border-left: 1px solid;
       padding-left: 15px;
+}
+#navtgation > ul > li > a:hover{
+      background-color: #04e904;
 }
 .logo{
       color: white;
