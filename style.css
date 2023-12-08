@@ -81,3 +81,19 @@ span{
       color: red;
       font-size: 35px;
 }
+.main_header{
+      background-image: url(picture/beach_web.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      background-position: center;
+      height: 600px;
+      
+
+}
+.header_container{
+      padding-top:100px;
+     
+      
+      
+}
