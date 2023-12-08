@@ -22,7 +22,7 @@
       color: white;
       font-size: 22px;
       border-right: 1px solid ;
-      padding: 15px 20px;
+      padding: 16px 20px;
       transition: 0.5s;
 }
 #navtgation > ul > li:first-child > a {
@@ -36,4 +36,35 @@
       color: white;
       margin-left: 30px;
       font-size: 25px;
+}
+/* dropdown menu start  */
+.dropdown{
+      background-color: #04e904;
+      text-align: center;
+      margin-top: 16px;
+      position: absolute;
+      font-size: 22px;
+      opacity: 0;
+      transition: 0.5s;
+      visibility: hidden;
+     
+}
+.dropdown > li{
+      list-style: none;
+      padding: 10px;
+      border-bottom: 1px solid white;
+      border-radius: 5px;
+}
+.dropdown > li:hover{
+      background-color: #12641263;
+}
+.dropdown > li > a{
+      text-decoration: none;
+      color: white;
+      text-align: center;
+      
+}
+.firstdrop:hover > .dropdown{
+      opacity: 1;
+      visibility: visible;
 }
