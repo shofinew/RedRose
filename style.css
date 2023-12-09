@@ -1,12 +1,16 @@
 *{
       margin: 0;
       padding: 0;
+      
 }
 #navtgation{
       background-image: linear-gradient(green, red);
       display: flex;
       justify-content: space-between;
       align-items: center;
+      max-width: 1000px;
+      margin: auto;
+      
 }
 #navtgation > ul{
       display: flex;
@@ -88,12 +92,38 @@ span{
       text-align: center;
       background-position: center;
       height: 600px;
+      width: 1000px;
+      margin: auto;
+      display: flex;
+     
+     
       
 
 }
 .header_container{
-      padding-top:100px;
-     
+      padding-top:50px;
+      border: 3px solid blue;
+      width: 600px;
+      background-color: #2e3b3f8a;
+      margin-left: 200px;
+      margin-top: 130px;
+      border-radius: 5px;
+      color: #fff;
+      height: 300px;
+      font-size: 25px;
       
-      
+
+    
+}
+.header_container > button{
+      padding: 10px;
+      background-color: gray;
+      border-radius: 5px;
+      margin-top: 50px  ;
+      /* margin-bottom: 20px; */
+      color: black;
+}
+.header_container > button:hover{
+      background-color: antiquewhite;
+      cursor: pointer;
 }
