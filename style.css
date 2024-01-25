@@ -1,8 +1,8 @@
 *{
       margin: 0;
-      padding: 0;
-      
+      padding: 0;  
 }
+
 #navtgation{
       background-image: linear-gradient(green, red);
       display: flex;
@@ -10,17 +10,18 @@
       align-items: center;
       max-width: 1000px;
       margin: auto;
-      
+
 }
 #navtgation > ul{
       display: flex;
       margin-right: 50px;
 }
+
 #navtgation > ul > li{
       list-style: none;
-      padding: 15px 0px;
-     
+      padding: 15px 0px;    
 }
+
 #navtgation > ul > li > a {
       text-decoration: none;
       color: white;
@@ -29,19 +30,29 @@
       padding: 16px 20px;
       transition: 0.5s;
 }
+
+
 #navtgation > ul > li:first-child > a {
       border-left: 1px solid;
       padding-left: 15px;
 }
+
+
 #navtgation > ul > li > a:hover{
       background-color: #04e904;
 }
+
+
 .logo{
       color: white;
       margin-left: 30px;
       font-size: 25px;
 }
+
+
 /* dropdown menu start  */
+
+
 .dropdown{
       background-color: #04e904;
       text-align: center;
@@ -54,52 +65,55 @@
       transform: scaleY(0);
       transform-origin: top;
       box-shadow: 5px 5px 5px red;
-      
-     
 } 
+
+
 .dropdown > li{
       list-style: none;
       padding: 10px;
       border-bottom: 2px solid white;
       border-radius: 5px;
-      
 }
+
+
 .dropdown > li:hover{
-      background-color: #12641263;
-      
-     
+      background-color: #12641263;   
 }
+
+
 .dropdown > li > a{
       text-decoration: none;
       color: white;
-      text-align: center;
-      
+      text-align: center;   
 }
+
+
 .firstdrop:hover > .dropdown{
       opacity: 1;
       visibility: visible;
-     transform: scaleY(1);
-      
+     transform: scaleY(1);  
 }
+
+
 span{
       color: red;
       font-size: 35px;
 }
+
+
 .main_header{
       background-image: url(picture/beach_web.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       text-align: center;
       background-position: center;
-      height: 600px;
+      height: 900px;
       width: 1000px;
       margin: auto;
       display: flex;
-     
-     
-      
-
 }
+
+
 .header_container{
       padding-top:50px;
       border: 3px solid blue;
@@ -110,20 +124,121 @@ span{
       border-radius: 5px;
       color: #fff;
       height: 300px;
-      font-size: 25px;
-      
-
-    
+      font-size: 25px;   
 }
+
+.header_container:hover{
+      border: 3px solid rgb(0, 255, 76);
+}
+
 .header_container > button{
       padding: 10px;
-      background-color: gray;
+      background-color: rgb(5, 235, 5);
       border-radius: 5px;
       margin-top: 50px  ;
       /* margin-bottom: 20px; */
       color: black;
 }
+
+
 .header_container > button:hover{
       background-color: antiquewhite;
       cursor: pointer;
 }
+
+/* This is Quiz Area */
+
+.main_area_for_Quize{
+      margin: 50px 0px 0px 300px ;
+      border: 3px solid green;
+      border-radius: 7px;
+      height: 650px;
+      width: 350px;
+}
+
+
+.wallet_bar{
+      height: 40px;
+      width: 350px;
+      border: 1px solid blueviolet;
+      display: flex;
+}
+
+
+.profile_area{
+      height: 115px;
+      width: 350px;
+      border: 1px solid red;
+      display: flex;
+}
+
+.profile_picture{
+      margin:10px 0px 0px 10px ;
+      border-radius: 50%;
+      height: 100px;
+      width: 100px;
+      border: 1px solid;
+}
+
+.Profile_Name{
+      height: 100px;
+      width: 220px;
+      border: 1px solid; 
+      margin: 10px auto;
+  }
+
+
+.Question_area{
+      margin:10px auto ;
+      height: 200px;
+      width: 300px;
+      border: 1px solid;
+}
+
+.Answer_area{
+      margin:20px auto ;
+      height: 200px;
+      width: 300px;
+      border: 3px solid greenyellow;
+}
+
+.input_text_area{
+      height: 130px;
+      width: 290px;
+      margin: 3px;
+}
+
+.Answer_Submit_btn{
+      padding: 10px 100px;
+      margin:7px 10px;
+      border: 1px solid;
+      border-radius:5px;
+      color: #04e904;
+      font-size: 25px;
+      cursor: pointer;
+}
+.btn_container{
+      margin-top: -20px;
+      margin-left: 15px;
+}
+
+.Home_btn{
+      padding: 10px 50px;
+      margin:10px 10px;
+      border: 1px solid;
+      border-radius:5px;
+      color: #5c04e9;
+      font-size: 15px;
+      cursor: pointer;
+}
+
+.Next_btn{
+      padding: 10px 50px;
+      margin:10px 10px;
+      border: 1px solid;
+      border-radius:5px;
+      color: #5c04e9;
+      font-size: 15px;
+      cursor: pointer;
+}
+
